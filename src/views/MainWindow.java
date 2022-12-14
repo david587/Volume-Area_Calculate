@@ -16,15 +16,14 @@ public class MainWindow extends JFrame {
         this.titlePanel = new TitlePanel();
         this.aedgePanel = new AedgePanel();
         this.alfaPanel = new AlfaPanel();
-        // this.cedgePanel = new CedgePanel();
         this.volumePanel = new VolumePanel();
         this.areaPanel = new AreaPanel();
         this.buttonsPanel = new ButtonsPanel();
         this.initWindow();
     }
     public void initWindow() {
-        this.setIconImage(new ImageIcon("Névtelen.png").getImage());
-
+        this.setIconImage(new ImageIcon("dbLogo.png").getImage());
+        this.setTitle("rombitak");
         this.setLayout(new BoxLayout(this.getContentPane(), BoxLayout.PAGE_AXIS));
         this.addComponents();
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
