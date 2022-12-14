@@ -1,3 +1,12 @@
+/*
+* File: MainController.java
+* Author: Baráth Dávid
+* Copyright: 2022, Baráth Dávid
+* Group: Szoft 2 N
+* Date: 2022-12-14
+* Github: https://github.com/david587/
+* Licenc: GNU GPL
+*/
 package controllers;
 
 import javax.swing.JButton;
@@ -32,7 +41,7 @@ public class MainController {
     }
     
     public void onClickABoutButton(){
-        String aboutString = "Rombitak\nVerzió: 0.1\nBaráth Dávid Szoft 2 N\n 2022-12-14";
-        JOptionPane.showMessageDialog(mainWindow,aboutString);
+        String aboutMessage = "Rombitak\nVerzió: 0.1\nBaráth Dávid Szoft 2 N\n 2022-12-14";
+        JOptionPane.showMessageDialog(mainWindow,aboutMessage);
     }
 }
